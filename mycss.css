@@ -1,9 +1,9 @@
-books{color:white;background-color:gray;width:100%}
+books{color:white; background-color:gray; width:100%}
 
 heading{
 color:green;
 font-size:40px;
-background-color:powerblue;
+background-color:powderblue;
 }
 heading,title,author,publisher{
 display:block;
