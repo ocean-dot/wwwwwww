@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tw">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<style type="text/css">
+	   p{color: pink;margin:5px;cursor: pointer;}
+        p:hover{background: green;}
+.CAT{position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: 10;
+background: rgba(150,36,0,0.4);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+</style>
+</head>
+<body>
+     <p>產品介紹</p>
+     <h1>智慧型貓咪機器人</h1>
+     <div class="CAT">
+     <img src="https://s.newtalk.tw/album/news/443/5f2137906c58b.jpg"width="1000"heigh='1000'>
+     <img src="https://cdn4.iconfinder.com/data/icons/eon-ecommerce-i-1/32/delete_remove_cross_square-256.png"width="50"heigh='50'>
+     </div>
+
+     <script type="text/javascript">
+     	$("p").click(function(){
+     		$(".CAT").slideToggle();
+     	});
+     	$("img").click(function(){
+     		$(".CAT").slideToggle();
+     	});
+     </script>
+</body>
+</html>
